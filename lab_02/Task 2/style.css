@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex: 1;
+  padding: 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+
+/* Left */
+
+.left-section {
+  flex: 65;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #dbdbdb;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 0;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.instagram-logo {
+  width: 75px;
+  height: 75px;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: #000000;
+  font-family: Georgia, serif;
+}
+
+.highlight-red {
+  color: #ed4956;
+}
+
+.highlight-pink {
+  color: #c13584;
+}
+
+.phones-mockup {
+  width: 100%;
+  max-width: 600px;
+}
+
+.phones-mockup img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Right */
+
+.right-section {
+  flex: 35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-left: 50px;
+}
+
+.login-box {
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-box h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #262626;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 16px 16px;
+  border: 1px solid #dbdbdb;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #a8a8a8;
+  background-color: #ffffff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-btn:hover {
+  background-color: #1877f2;
+}
+
+.forgot-link {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 12px;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.facebook-login-btn {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 550px;
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #385185;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.facebook-login-btn:hover {
+  background-color: #fafafa;
+}
+
+.fb-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.create-account-btn {
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 550px;
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #0095f6;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+.create-account-btn:hover {
+  background-color: #fafafa;
+}
+
+.meta-logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.meta-logo img {
+  width: 80px;
+  height: auto;
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 30px 20px 20px;
+  background-color: #ffffff;
+}
+
+.footer-links {
+  max-width: 1500px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.footer-links a {
+  color: #8e8e8e;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #8e8e8e;
+  font-size: 12px;
+}
+
+.language-select {
+  padding: 5px 10px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  color: #8e8e8e;
+  font-size: 12px;
+  cursor: pointer;
+}
