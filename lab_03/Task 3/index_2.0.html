@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style_2.0.css">
+</head>
+<body background="high-angle-shot-stones-body-sea.jpg" style="background-size: cover; background-attachment: fixed;">
+    <div class="container">
+        <div class="header">
+            <h1>ToDo List</h1>
+            <p class="current-date" id="currentDate"></p>
+        </div>
+
+        <div class="tasks-section">
+            <h2 class="section-title">Задачи</h2>
+            <div id="activeTasks" class="tasks-list"></div>
+        </div>
+
+        <div class="tasks-section">
+            <h2 class="section-title">Выполнено</h2>
+            <div id="completedTasks" class="tasks-list"></div>
+        </div>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Новая задача...">
+            <button id="addBtn">+</button>
+        </div>
+    </div>
+
+    <script src="script_2.0.js"></script>
+</body>
+</html>
